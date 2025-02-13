@@ -1,15 +1,18 @@
 /* style.css */
 
+/* Estilos generales */
 body {
     font-family: sans-serif;
     margin: 0;
 }
 
+/* Estilos para el encabezado */
 header {
     background-color: #f0f0f0;
     padding: 20px;
 }
 
+/* Estilos para el menú de navegación */
 nav ul {
     list-style: none;
     margin: 0;
@@ -22,6 +25,7 @@ nav li {
     margin: 0 10px;
 }
 
+/* Estilos para la sección principal */
 #hero {
     text-align: center;
     padding: 50px;
@@ -35,11 +39,13 @@ nav li {
     height: auto;
 }
 
+/* Estilos para la sección de destacados */
 #destacados {
     padding: 50px;
     text-align: center;
 }
 
+/* Estilos para las tarjetas de destacados */
 .card {
     display: inline-block;
     margin: 20px;
@@ -52,6 +58,7 @@ nav li {
     height: auto;
 }
 
+/* Estilos para el pie de página */
 footer {
     background-color: #333;
     color: white;
